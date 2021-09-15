@@ -1,1 +1,0 @@
-https://VasilyeuUV.github.io/rsschool-cv/cv
