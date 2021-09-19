@@ -12,7 +12,6 @@ body {
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
 
-
 h6{
     font-size: 6px;
     color: gray;
@@ -20,7 +19,6 @@ h6{
     text-align: right;
     font-style: italic;
 }
-
 
 li{
     list-style-type: none;
@@ -35,7 +33,6 @@ a {
     text-decoration: none;
     padding: 0 10px;
 }
-
 
 a:link {
     color:gray;
@@ -69,14 +66,12 @@ header{
     margin-top: 10px;
 }
 
-
 h1{
     text-align: center;
     font-size: calc(6px + 2.3vw);
     margin: 0;
     padding: 5px;
 }
-
 
 h2{
     color:white;
@@ -89,6 +84,11 @@ h2{
 	border-radius: 10px 40px;
 }
 
+.block-right{
+    margin-left: auto;
+    margin-right: 0;
+}
+
 #contacts {
     display: flex;
     font-size: 12px;
@@ -96,12 +96,6 @@ h2{
     padding: 0;    
     border-top: 1px solid gray;
 }
-
-.block-right{
-    margin-left: auto;
-    margin-right: 0;
-}
-
 
 #my_photo {
     width: 165px;
@@ -115,9 +109,6 @@ h2{
 #my_photo:hover{
     transform: scale(1.2);  /* Увеличиваем масштаб */
 }
-
-
-
 
 
 /*#####################################################################################*/
@@ -138,7 +129,6 @@ main{
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
     padding: 0 10px;
 }
-
 
 
 /*#####################################################################################*/
@@ -162,8 +152,6 @@ nav{
 }
 
 
-
-
 /*#####################################################################################*/
 /* SECTIONS */
 
@@ -172,8 +160,6 @@ section {
 	border-radius: 15px 40px;
     padding: 0 8px;
 }
-
-
 
 h3{
     font-size:calc(6px + 1vw);
@@ -184,7 +170,6 @@ h3{
     opacity: 0.5;
     border-radius: 10px 70px;
     padding: 0 30px;
-    
 }
 
 img {
@@ -204,7 +189,6 @@ code {
     line-height: 0.9em;
 }
 
-
 .param {
     font-weight: bold;
     font-style: italic;
@@ -216,11 +200,9 @@ code {
     padding: 0;
 }
 
-
 .li-param {
     margin-top: 5px;
 }
-
 
 .text-param {
     margin: 0;
@@ -233,7 +215,6 @@ code {
 .text-bold {
     font-weight: bold;
 }
-
 
 .text {
     font-size: calc(6px + 0.8vw);
@@ -283,5 +264,3 @@ footer a {
     width: auto;
     height: 18px;
 }
-
-
