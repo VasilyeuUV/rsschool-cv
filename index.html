@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/default.min.css">
     <title>CV U.Vasilyeu</title>
 </head>
 
@@ -174,7 +175,7 @@
                 <div class="param div-param">
                     Sample code from<a href="https://www.codewars.com" target="_blank">Codewars</a>:
                     <pre>
-                        <code>
+                        <code class="js">
 const isIsogram = str =&gt; 
     [...new Set(str.toLowerCase())].length === str.length;
 
@@ -321,6 +322,9 @@ const nicknameGenerator = name =&gt; name.length &gt; 3
             </li>
         </ul>
     </footer>
+
+    <script src="js/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
 </body>
 
 </html>
