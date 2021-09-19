@@ -7,8 +7,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css\style.css">
-    <link rel="stylesheet" href="css\font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <title>CV U.Vasilyeu</title>
 </head>
 
@@ -57,7 +57,7 @@
         </aside>
 
         <div id="div-right">
-            <a name="myself"></a>
+            <a id="myself"></a>
             <section>
                 <h3>ABOUT MYSELF</h3>
                 <p class="text">
@@ -72,7 +72,7 @@
                 </p>
             </section>
 
-            <a name="skills"></a>
+            <a id="skills"></a>
             <section>
                 <h3>SKILLS</h3>
                 <ul class="ul-param">
@@ -141,29 +141,32 @@
                 </ul>
             </section>
 
-            <a name="experience"></a>
+            <a id="experience"></a>
             <section>
                 <h3>TECNICAL EXPERIENCE</h3>
                 <ul>
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2009-2020:</span>
+                        <p class="text-param">Study projects while studying.</p>
+                        <p class="text-param">
+                            <i>Example:</i>
+                            <a href="https://www.youtube.com/watch?v=N4aWpcOpofA&amp;feature=youtu.be" target="_blank">
+                                <i class="fa fa-youtube fa-2x" aria-hidden="true" title='YouTube'></i>
+                            </a>
+                        </p>
                     </li>
-                    <p class="text-param">Study projects while studying.</p>
-                    <p class="text-param">
-                        <i>Example:</i>
-                        <a href="https://www.youtube.com/watch?v=N4aWpcOpofA&amp;feature=youtu.be" target="_blank">
-                            <i class="fa fa-youtube fa-2x" aria-hidden="true" title='YouTube'></i>
-                        </a>
-                    </p>
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2020:</span>
+                        <p class="text-param">Trainee at EPAM as a software developer. Not completed due to coronavirus.
+                        </p>
+
                     </li>
-                    <p class="text-param">Trainee at EPAM as a software developer. Not completed due to coronavirus.</p>
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2021-now:</span>
+                        <p class="text-param">Support and development of new functionality for several projects in
+                            System
+                            Technologies.</p>
                     </li>
-                    <p class="text-param">Support and development of new functionality for several projects in System
-                        Technologies.</p>
                 </ul>
 
 
@@ -185,7 +188,7 @@ const nicknameGenerator = name =&gt; name.length &gt; 3
                 </div>
             </section>
 
-            <a name="lang"></a>
+            <a id="lang"></a>
             <section>
                 <h3>HUMAN LANGUAGES</h3>
                 <ul>
@@ -194,54 +197,60 @@ const nicknameGenerator = name =&gt; name.length &gt; 3
                 </ul>
             </section>
 
-            <a name="education"></a>
+            <a id="education"></a>
             <section>
                 <h3>EDUCATION</h3>
                 <ul>
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2021-now:</span>
+                        <p class="text-param">JavaScript/Front-end Course from The Rolling Scopes Community.</p>
+
                     </li>
-                    <p class="text-param">JavaScript/Front-end Course from The Rolling Scopes Community.</p>
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">Nov.2015-Sep.2018:</span>
+                        <p class="text-param">Computer Academy «IT STEP» - Minsk, Belarus (<em>Software
+                                Development</em>).
+                        </p>
                     </li>
-                    <p class="text-param">Computer Academy «IT STEP» - Minsk, Belarus (<em>Software Development</em>).
-                    </p>
+
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">Sep.-Oct. 2015:</span>
+                        <p class="text-param">Course &quot;Programming in PHP&quot; - BELHARD, Minsk, Belarus.
+                        </p>
                     </li>
-                    <p class="text-param">Course &quot;Programming in PHP&quot; - BELHARD, Minsk, Belarus.
-                    </p>
+
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2009-2011:</span>
+                        <p class="text-param">State University of Grodno, Belarus (<em>Information Systems Software
+                                engineer</em>).
+                        </p>
                     </li>
-                    <p class="text-param">State University of Grodno, Belarus (<em>Information Systems Software
-                            engineer</em>).
-                    </p>
+
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">1992-1997:</span>
-                    </li>
-                    <p class="text-param">Military Academy of the Republic of Belarus (<em>Radio engineer</em>).
+                        <p class="text-param">Military Academy of the Republic of Belarus (<em>Radio engineer</em>).</p>
 
-                        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
-                                class="param">Online courses:</span>
-                            <ul>
-                                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;ITVDN: С#, WPF,
-                                    HowTo, .NET Developer, etс.;</li>
-                                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;busisql-ex.ru SQL
-                                    Exercises;</li>
-                                <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;html academy: HTML,
-                                    CSS &amp; JavaScript.</li>
-                            </ul>
-                        </li>
+                    </li>
+
+                    <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+                            class="param">Online courses:</span>
+                        <ul>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;ITVDN: С#, WPF,
+                                HowTo, .NET Developer, etс.;</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;busisql-ex.ru SQL
+                                Exercises;</li>
+                            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;html academy: HTML,
+                                CSS &amp; JavaScript.</li>
+                        </ul>
+                    </li>
                 </ul>
             </section>
 
-            <a name="work"></a>
+            <a id="work"></a>
             <section>
 
                 <h3>WORK HISTORY</h3>
@@ -249,23 +258,26 @@ const nicknameGenerator = name =&gt; name.length &gt; 3
                 <ul>
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2021-now:</span>
+                        <p class="text-param">Software Engineer in System Technologies;</p>
+
                     </li>
-                    <p class="text-param">Software Engineer in System Technologies;</p>
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">2013-2020:</span>
+                        <p class="text-param">Analyst of mass media and social networks (in monitoring agencies and
+                            freelance);</p>
                     </li>
-                    <p class="text-param">Analyst of mass media and social networks (in monitoring agencies and
-                        freelance);</p>
+
 
                     <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
                             class="param">1992-2013:</span>
+                        <p class="text-param">Service in the Armed Forces of the Republic of Belarus.</p>
+
                     </li>
-                    <p class="text-param">Service in the Armed Forces of the Republic of Belarus.</p>
                 </ul>
             </section>
 
-            <a name="personal"></a>
+            <a id="personal"></a>
             <section>
                 <h3>PERSONAL INFORMATION</h3>
                 <ul>
