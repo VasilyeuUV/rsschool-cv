@@ -1,3 +1,5 @@
+![Uladzislau Vasilyeu](img/photo_2023-11-02.jpg)
+
 **mr ULADZISLAY VASILYEU**
 ==========================
 
