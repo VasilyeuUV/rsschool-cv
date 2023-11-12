@@ -6,7 +6,7 @@
 **Location:**   Hrodna, Republic of Belarus   
 **Tel:**        +375 (25) 70-24-226   
 **Email:**	    vasilyeu.uv@mail.ru   
-**Skype:**	    live:.cid.570b8459c416f0c0   
+**Discord:**    Vlad Vasilev (@VasilyeuUV)   
 **LinkedIn:**	http://www.linkedin.com/in/uv257024226   
 **GitHub:**	    https://github.com/VasilyeuUV   
      
