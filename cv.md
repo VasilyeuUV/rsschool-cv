@@ -45,8 +45,8 @@ const snail = function (array) {
     if (array.length < 1)
       break;
     array = array[0].map((col, i) => array.map(row => row[row.length - i - 1]));
-    }
-    return [].concat(...arr2);
+  }
+  return [].concat(...arr2);
 }
 ```
 
