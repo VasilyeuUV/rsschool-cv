@@ -47,11 +47,107 @@ img {
     height: auto;
 }
 
+li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.wrapper {
+    max-width: 1440px;  
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+:focus {
+    outline: none;
+}
 /*#endregion BASIC STYLE*/
 
 
-/* #################################################################*/
+/*#################################################################*/
 /*#region HEADER*/
 
+.header__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;    
+}
+
+.header__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__item {
+    margin-right: 40px;
+}
+
+/* .header__item:last-child {
+    margin-right: 0;
+} */
+
+.header__link {
+    font: var(--font-link);
+    color: var(--color-link-dark);
+    text-decoration: none;
+
+    position: relative;
+    transition: .2s;
+}
+
+.header__link::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    height: 2px;
+    width: 100%;
+    transform: scale(0, 1);
+    transition: transform 0.4s;
+    background: black;
+    transform-origin: right top;
+}
+
+.header__link:hover,
+.header__link:focus,
+.header__link:active {
+
+}
+
+.header__link:hover::after,
+.header__link:focus::after,
+.header__link:active::after {
+    transform: scale(1, 1);
+    transform-origin: left top;
+}
+
+.header__burger-link {
+    display: inline-block;
+    padding-right: 28px;
+    background: url(../img/icons/coffee-cup.svg) no-repeat right top;
+}
 
 /*#endregion HEADER*/
+
+
+/*#################################################################*/
+/*#region MAIN*/
+
+/*--------------------------------------------------------*/
+/*#region Hero*/
+
+.hero {
+    height: 200px;
+    padding: 100px;
+    border-radius: 40px;
+    background: url(../img/main_page/img-hero.jpg), lightgray 50% / cover no-repeat;
+    
+    
+
+}
+
+/*#endregion Hero*/
+
+/*#endregion MAIN*/
