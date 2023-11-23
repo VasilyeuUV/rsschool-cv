@@ -1,0 +1,36 @@
+:root {
+
+/*COLORS*/
+
+--color-dark:#665F55;
+--color-light: #E1D4C9;
+--color-backdrop: rgba(64, 63, 61, 0.80);
+
+--text-color-dark: #403F3D;
+--text-color-light: var(--color-light);
+--text-color-accent: #B0907A;
+
+--background-color-body:var(--color-light);
+--background-color-container: var(--color-dark);
+
+--border-color-light: #C1B6AD;
+--border-color-dark: var(--color-dark);
+
+--tab-item-color-active: var(--color-dark);
+
+
+/*FONTS*/
+--font-heading-1: 600 72px/105% inherit;
+--font-heading-1-accent: italic var(--font-heading-1);
+--font-heading-2: 600 60px/125% inherit;
+--font-heading-2-accent: italic var(--font-heading-2);
+--font-heading-3: 600 24px/125% inherit;
+
+--font-body-medium: 400 16px/150% 'Inter', Verdana, Tahoma, sans-serif;
+--font-body-caption: 600 10px/140% inherit;
+
+--font-link: 600 16px/150% inherit;
+--font-burger-link: 600 32px/125% inherit;
+--font-button: var(--font-link);
+
+}
