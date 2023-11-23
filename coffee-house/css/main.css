@@ -1,0 +1,35 @@
+/* #################################################################*/
+/*#region BASIC STYLE*/
+
+html {
+  box-sizing: border-box;	
+}
+
+*, 
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-size: 16pt;
+  font-weight: normal;
+  line-height: 1.2;
+  color: black;
+  min-height: 100vh;
+  /* background: url(../img/…) no-repeat center; */
+  /* background-size: cover; */
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*#endregion BASIC STYLE*/
+
+
+/*#################################################################*/
