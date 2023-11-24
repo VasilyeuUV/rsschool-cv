@@ -58,10 +58,57 @@ li {
     padding: 0 40px;
 }
 
+.link {
+    font: var(--font-link);
+    color: var(--color-link-dark);
+    text-decoration: none;
+}
+
 :focus {
     outline: none;
 }
 /*#endregion BASIC STYLE*/
+
+
+/*#################################################################*/
+/*#region FONTS*/
+
+h1 span {
+    font: var(--font-heading-1);
+}
+
+.accent {
+    font-style: italic;
+    color: var(--text-color-accent);
+}
+
+/*#endregion FONTS*/
+
+
+/*#################################################################*/
+/*#region ELEMENTS*/
+
+.btn {
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+    padding: 20px 0;
+}
+
+.btn__round {
+    width: 60px;
+    height: 60px;
+}
+
+.btn__oval {
+    width: 200px;
+    height: 64px;
+}
+
+/*#endregion ELEMENTS*/
+
 
 
 /*#################################################################*/
@@ -89,10 +136,6 @@ li {
 } */
 
 .header__link {
-    font: var(--font-link);
-    color: var(--color-link-dark);
-    text-decoration: none;
-
     position: relative;
     transition: .2s;
 }
@@ -106,14 +149,9 @@ li {
     width: 100%;
     transform: scale(0, 1);
     transition: transform 0.4s;
-    background: black;
+    background: var(--text-color-dark);
     transform-origin: right top;
-}
-
-.header__link:hover,
-.header__link:focus,
-.header__link:active {
-
+    transition-delay: .25s;
 }
 
 .header__link:hover::after,
@@ -139,13 +177,44 @@ li {
 /*#region Hero*/
 
 .hero {
-    height: 200px;
+    margin-bottom: 100px;
+}
+
+.wrapper__hero {
     padding: 100px;
     border-radius: 40px;
-    background: url(../img/main_page/img-hero.jpg), lightgray 50% / cover no-repeat;
-    
-    
+    background: url(../img/main_page/img-hero.jpg), lightgray 50% / cover no-repeat;    
+    background-size: cover;
+}
 
+.hero__content {
+    max-width: 530px;
+    color: var(--text-color-light);
+}
+
+.hero__title {
+    margin-bottom: 40px;
+}
+
+.hero__lead {
+    font: var(--font-body-medium);
+    margin-bottom: 40px;
+}
+
+.hero__btn-menu {
+    background-color: var(--background-color-body);     
+    transition-property: padding-right;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.hero__btn-menu:hover {
+    background: url(../img/icons/coffee-cup.svg) no-repeat 120px 20px;
+    background-color: var(--background-color-body);
+    padding-right: 20px;    
+    transition-property: background, padding-right;
+    transition-duration: 1s;
+    transition-timing-function: ease;
 }
 
 /*#endregion Hero*/
