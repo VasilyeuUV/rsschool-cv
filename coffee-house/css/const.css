@@ -22,19 +22,17 @@
 
 
 /*FONTS*/
---font-family: 'Inter', Verdana, Tahoma, sans-serif;
+--font-family: 'Inter';
 
---font-heading-1: 600 72px/105% inherit;
---font-heading-1-accent: italic var(--font-heading-1);
---font-heading-2: 600 60px/125% inherit;
---font-heading-2-accent: italic var(--font-heading-2);
---font-heading-3: 600 24px/125% inherit;
+--font-heading-1: 600 72px/105% var(--font-family);
+--font-heading-2: 600 60px/125% var(--font-family);
+--font-heading-3: 600 24px/125% var(--font-family);
 
 --font-body-medium: 400 16px/150% var(--font-family);
---font-body-caption: 600 10px/140% inherit;
+--font-body-caption: 600 10px/140% var(--font-family);
 
 --font-link: 600 16px/150% var(--font-family);
---font-burger-link: 600 32px/125% inherit;
+--font-burger-link: 600 32px/125% var(--font-family);
 --font-button: var(--font-link);
 
 }
