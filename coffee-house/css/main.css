@@ -58,6 +58,10 @@ li {
     padding: 0 40px;
 }
 
+.wrapper__section {
+    margin-bottom: 100px;
+}
+
 .link {
     font: var(--font-link);
     color: var(--color-link-dark);
@@ -100,6 +104,15 @@ h3 {
     color: var(--text-color-accent);
 }
 
+.caption {
+    font: var(--font-body-caption);
+    margin: 0;
+}
+
+.no-margin{
+    margin: 0;
+}
+
 /*#endregion FONTS*/
 
 
@@ -137,6 +150,13 @@ h3 {
     background: url(../img/icons/facebook.svg) no-repeat center center;
 }
 
+.appstore {
+    background: url(../img/icons/appstore-icon.svg) no-repeat 20px center;
+}
+
+.googleplay {
+    background: url(../img/icons/googleplay-icon.svg) no-repeat 20px center;
+}
 /*#endregion ELEMENTS*/
 
 
@@ -206,10 +226,6 @@ h3 {
 /*--------------------------------------------------------*/
 /*#region Hero*/
 
-.hero {
-    margin-bottom: 100px;
-}
-
 .wrapper__hero {
     padding: 100px;
     border-radius: 40px;
@@ -253,10 +269,6 @@ h3 {
 /*--------------------------------------------------------*/
 /*#region Favorite*/
 
-.wrapper__favorite{
-    margin-bottom: 100px;
-}
-
 .favorite__title {
     text-align: center;
 }
@@ -281,7 +293,6 @@ h3 {
 /*#region About*/
 
 .wrapper__about {
-    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -317,8 +328,40 @@ h3 {
 /*--------------------------------------------------------*/
 /*#region Download*/
 
-.wrapper__download {
-    margin-bottom: 100px;
+.download__content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.download__content-common{
+    flex: 1;
+}
+
+.download__content-right {
+    text-align: right;
+}
+
+.download__title{
+    max-width: 630px;    
+} 
+
+.download__lead {
+    max-width: 630px;    
+    font: var(--font-body-medium);
+    margin-bottom: 40px;
+}
+
+.download__btn {
+    border: solid 1px var(--border-color-dark); 
+    text-align: left;
+    padding-left: 64px;
+    margin-right: 20px;
+}
+
+.download__btn-text {
+    margin-top: -5px;
 }
 
 /*#endregion Download*/
