@@ -77,6 +77,14 @@ h1 span {
     font: var(--font-heading-1);
 }
 
+h2 {
+    margin-bottom: 40px;
+}
+
+h2 span {
+    font: var(--font-heading-2);
+}
+
 .accent {
     font-style: italic;
     color: var(--text-color-accent);
@@ -219,4 +227,50 @@ h1 span {
 
 /*#endregion Hero*/
 
+
+/*--------------------------------------------------------*/
+/*#region Favorite*/
+
+.wrapper__favorite{
+    margin-bottom: 100px;
+}
+
+.favorite__title {
+    text-align: center;
+}
+
+/*#endregion Favorite*/
+
+
+/*--------------------------------------------------------*/
+/*#region About*/
+
+.wrapper__about {
+    margin-bottom: 100px;
+}
+
+/*#endregion About*/
+
+
+/*--------------------------------------------------------*/
+/*#region Download*/
+
+.wrapper__download {
+    margin-bottom: 100px;
+}
+
+/*#endregion Download*/
+
 /*#endregion MAIN*/
+
+
+/*#################################################################*/
+/*#region FOOTER*/
+
+.footer__wrapper {
+    padding: 100px;
+    border-radius: 40px;
+    background-color: var(--background-color-container);    
+}
+
+/*#endregion FOOTER*/
