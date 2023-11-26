@@ -580,8 +580,16 @@ input[name="slider"] {
 /*#################################################################*/
 /*#region MENU PAGE*/
 
+.menu__disabled {
+    margin-top: 8px;
+}
+
 /*#################################################################*/
 /*#region Title*/
+
+.offer {
+    margin-top: -25px;
+}
 
 .offer__content {
     display: flex;
@@ -637,10 +645,6 @@ input[name="slider"] {
     border-radius: 40px;
 }
 
-.offer__card-pic {
-    max-width: 340px;
-}
-
 .offer__card-content {
     flex-grow: 1;
     display: flex;
@@ -679,6 +683,7 @@ input[name="radio"] {
 }
 
  .offer__navigation {
+    margin-right: -18px;
     margin-bottom: 40px;
  }
 
@@ -687,13 +692,13 @@ input[name="radio"] {
  }
 
 .btn-offer {
+    height: 46px;
     width: auto;
     border: 1px solid var(--border-color-dark);
     text-align: right;
     padding: 0;
     padding-right: 16px;
     margin-right: 16px;
-
     transition: all 0.4s ease;
 }
 
@@ -721,8 +726,8 @@ input[name="radio"] {
     position: relative;
     border-radius: 50%;
     overflow: hidden;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     background: var(--border-color-light);
     text-align: center;
     margin: 8px;
