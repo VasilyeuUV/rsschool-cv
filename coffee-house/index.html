@@ -81,38 +81,52 @@
                     </h2>
 
                     <div class="favorite__slider">
-                        <div class="slider__navigation-prev">
-                            
-                            <a href="https://twitter.com/VasilyeuUV" class="btn btn__round footer__social-btn twitter" target="_blank"></a>
+                        <!-- <input type="radio" name="respond" id="favorite-prev" checked> -->
+                        <div class="favorite__slider-navigation">
+                            <input type="radio" name="slider" id="switch1" checked>
+                            <input type="radio" name="slider" id="switch2">
+                            <input type="radio" name="slider" id="switch3">  
+                        
+
+                            <div class="wrapper__favorite-cards">
+                                <div class="slider__navigation-prev">                                
+                                    <a href="#!" class="btn btn__round btn__prev"></a>
+                                </div>
+                                <!-- <div class="slider__cards"> -->
+                                    <div class="favorite__card">
+                                        <div class="favorite__card-imgbox">
+                                            <a href="#!" class="favorite__card-display">
+                                                <img src="./img/cups_of_coffee/coffee-slider-1.png" alt="Coffee" class="favorite__card-pic">
+                                            </a>  
+                                        </div>                         
+                                        <div class="favorite__card-content">
+                                            <h3 class="favorite__card-title">S’mores Frappuccino</h3>
+                                            <p class="favorite__card-description">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+                                            <h3 class="favorite__card-price">$5.50</h3>
+                                        </div>                           
+                                    </div>  
+                                <!-- </div>           -->                            
+                                <div class="slider__navigation-next">
+                                    <a href="#!" class="btn btn__round btn__next"></a>
+                                </div>
+                            </div>
 
                         </div>
-                        <div class="slider__card">
-                            
-                        </div>                        
-                        <div class="slider__navigation-next">
-                            
-                        </div>
+
 
     
-                        <!-- <div class="favorite__slider-navigation">
-                            <input type="radio" name="r" id="r1" checked>
-                            <input type="radio" name="r" id="r2">
-                            <input type="radio" name="r" id="r3">              
+                        <!-- <div class="slider__navigation-active">
+                            <label for="switch1" class="slider__navigation-control"></label>
+                            <label for="switch2" class="slider__navigation-control"></label>
+                            <label for="switch3" class="slider__navigation-control"></label>
                         </div> -->
-         
-         
-         
-                         <!-- <div class="slide slide1">
-                             <img src="./img/main_page/coffee-slider-1.png" alt="Coffee" class="about__slider-pic">
-                         </div>
-                         <div class="slide slide2">
-                             <img src="./img/main_page/coffee-slider-2.png" alt="Coffee" class="about__slider-pic">
-                         </div>
-                         <div class="slide slide3">
-                             <img src="./img/main_page/coffee-slider-3.png" alt="Coffee" class="about__slider-pic">
-                         </div> -->
-
                     </div>   
+
+                    <div class="slider__navigation-controls">
+                        <label for="switch1" class="slider__navigation-control"></label>
+                        <label for="switch2" class="slider__navigation-control"></label>
+                        <label for="switch3" class="slider__navigation-control"></label>
+                    </div>
 
                 </div>
             </div>

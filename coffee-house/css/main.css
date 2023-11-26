@@ -60,19 +60,6 @@ li {
 a.disabled {
     pointer-events: none;
     cursor: default;
-
-    /* position: absolute; */
-    /* bottom: -5px; */
-    /* right: 0; */
-    /* height: 2px; */
-    /* width: 100%; */
-    /* transform: scale(0, 1); */
-    /* transition: transform 0.4s; */
-    /* background: var(--text-color-dark); */
-    /* transform-origin: right top; */
-    /* transition-delay: .25s; */
-
-
 }
 
 .wrapper {
@@ -195,7 +182,7 @@ h3 {
     height: 64px;
 }
 
-.twitter {
+.twitter {    
     background: url(../img/icons/twitter.svg) no-repeat center center;
 }
 
@@ -302,19 +289,83 @@ h3 {
 
 
 /*--------------------------------------------------------*/
-/*#region Favorite*/
+/*#region Favorite Card*/
 
 .favorite__title {
     text-align: center;
 }
 
-.favorite__slider {
-    display: grid;
-    grid-template-columns: 60px auto 60px;
-    gap: 40px;
+.btn__prev {
+    border: 1px solid var(--border-color-dark, #665F55);
+    background: url(../img/icons/arrow-left.svg) no-repeat center center;
 }
 
-/*#endregion Favorite*/
+.btn__next {
+    border: 1px solid var(--border-color-dark, #665F55);
+    background: url(../img/icons/arrow-right.svg) no-repeat center center;
+}
+
+.wrapper__favorite-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favorite__card {
+    max-width: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.favorite__card-imgbox {
+    margin-bottom: 20px;
+}
+
+.favorite__card-content {
+    text-align: center;
+}
+
+.favorite__card-title {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.favorite__card-description {
+    margin: 0;
+    margin-bottom: 16px; 
+}
+
+.slider__navigation-controls {
+    position: absolute;
+    /* bottom: 0; */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.slider__navigation-control {
+    width: 30px;
+    height: 8px;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #000;
+    opacity: .5;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+}
+
+.slider__navigation-control:hover {
+    opacity: 1;
+    transform:scale(1.1);
+}
+
+input[name="slider"] {
+    position: absolute;
+    visibility: hidden;
+ }
+
+/*#endregion Favorite Card*/
 
 
 /*--------------------------------------------------------*/
@@ -606,7 +657,6 @@ input[name="radio"] {
     width:55%;
     height:55%;
     object-fit: cover;
-    /* vertical-align: middle; */
   }
 
 #radio1:checked ~ .s1 {
