@@ -107,6 +107,10 @@ a.disabled {
 :focus {
     outline: none;
 }
+
+.transition {
+    transition: 2s;
+}
 /*#endregion BASIC STYLE*/
 
 
@@ -182,25 +186,58 @@ h3 {
     height: 64px;
 }
 
-.twitter {    
+.twitter,
+.twitter:not(:hover) {    
     background: url(../img/icons/twitter.svg) no-repeat center center;
 }
 
-.instagramm {
+.twitter:hover {    
+    background: url(../img/icons/twitter-dark.svg) no-repeat center center;
+    background-color: var(--background-color-body);
+}
+
+.instagramm,
+.instagramm:not(:hover) {
     background: url(../img/icons/instagram.svg) no-repeat center center;
 }
 
-.facebook {
+.instagramm:hover {
+    background: url(../img/icons/instagram-dark.svg) no-repeat center center;
+    background-color: var(--background-color-body);
+}
+
+.facebook,
+.facebook:not(:hover) {
     background: url(../img/icons/facebook.svg) no-repeat center center;
 }
 
-.appstore {
+.facebook:hover {
+    background: url(../img/icons/facebook-dark.svg) no-repeat center center;
+    background-color: var(--background-color-body);
+}
+
+.appstore,
+.appstore:not(:hover) {
     background: url(../img/icons/appstore-icon.svg) no-repeat 20px center;
 }
 
-.googleplay {
+.appstore:hover {
+    background: url(../img/icons/appstore-light-icon.svg) no-repeat 20px center;
+    background-color: var(--background-color-container);    
+    color: var(--text-color-light);       
+}
+
+.googleplay,
+.googleplay:not(:hover) {
     background: url(../img/icons/googleplay-icon.svg) no-repeat 20px center;
 }
+
+.googleplay:hover {
+    background: url(../img/icons/googleplay-icon-light.svg) no-repeat 20px center;
+    background-color: var(--background-color-container); 
+    color: var(--text-color-light);       
+}
+
 /*#endregion ELEMENTS*/
 
 
@@ -295,14 +332,28 @@ h3 {
     text-align: center;
 }
 
-.btn__prev {
+.btn__prev,
+.btn__prev:not(:hover) {
     border: 1px solid var(--border-color-dark, #665F55);
     background: url(../img/icons/arrow-left.svg) no-repeat center center;
 }
 
-.btn__next {
+.btn__next,
+.btn__next:not(:hover) {
     border: 1px solid var(--border-color-dark, #665F55);
     background: url(../img/icons/arrow-right.svg) no-repeat center center;
+}
+
+.btn__next:hover {
+    background: url(../img/icons/arrow-right-light.svg) no-repeat center center;
+    background-color: var(--background-color-container);
+    transition: 2s;
+}
+
+.btn__prev:hover
+{
+    background: url(../img/icons/arrow-left-light.svg) no-repeat center center;
+    background-color: var(--background-color-container);
 }
 
 .wrapper__favorite-cards {
@@ -553,6 +604,12 @@ input[name="slider"] {
     max-width: 310px;
     border: solid 1px var(--border-color-light, #C1B6AD); 
     border-radius: 40px;
+    transition: 2s;
+}
+
+.offer__card:hover {
+    transform: scale(1.05);
+    border-width: 3px; 
 }
 
 .offer__card-imgbox {
@@ -631,6 +688,7 @@ input[name="radio"] {
     .circle__image {
         background: var(--text-color-light);
     }
+    transition: 1s;
 }
 
 .btn__oval-circle {
