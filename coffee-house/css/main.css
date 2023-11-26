@@ -133,6 +133,10 @@ h3 {
     color: var(--text-color-light);
 }
 
+.dark {
+    color: var(--text-color-dark);
+}
+
 .accent {
     font-style: italic;
     color: var(--text-color-accent);
@@ -143,8 +147,12 @@ h3 {
     margin: 0;
 }
 
-.no-margin{
+.no-margin {
     margin: 0;
+}
+
+.center {
+    text-align: center;
 }
 
 /*#endregion FONTS*/
@@ -194,6 +202,10 @@ h3 {
 /*#endregion ELEMENTS*/
 
 
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#region INDEX PAGE*/
 
 /*#################################################################*/
 /*#region HEADER*/
@@ -431,3 +443,74 @@ h3 {
 } */
 
 /*#endregion FOOTER*/
+/*#endregion INDEX PAGE*/
+
+
+
+/*#################################################################*/
+/*#################################################################*/
+/*#################################################################*/
+/*#region MENU PAGE*/
+
+/*#################################################################*/
+/*#region Title*/
+
+.offer__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer__title-2 {
+    max-width: 800px;
+    text-align: center;
+}
+
+.offer__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 310px);
+    gap: 40px;
+}
+
+.offer__card {
+    display: flex;
+    flex-direction: column;
+    max-width: 310px;
+    border: solid 1px var(--border-color-light, #C1B6AD); 
+    border-radius: 40px;
+}
+
+.offer__card-imgbox {
+    max-height: 310px;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+.offer__card-pic {
+    max-width: 340px;
+}
+
+.offer__card-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.offer__card-title {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.offer__card-description {
+    flex-grow: 1;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.offer__card-price {   
+    margin: 0;
+}
+
+/*#endregion Title*/
+/*#endregion MENU PAGE*/
