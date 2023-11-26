@@ -132,7 +132,7 @@ h2 span {
 
 h3 {
     font: var(--font-heading-3);
-    margin-bottom: 40px;
+    margin: 0;
 }
 
 .light {
@@ -254,7 +254,12 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 0;    
+    padding: 20px 0; 
+    margin-bottom: -5px;   
+}
+
+.header__logo {
+    margin-top: 10px;
 }
 
 .header__list {
@@ -265,10 +270,6 @@ h3 {
 .header__item {
     margin-right: 40px;
 }
-
-/* .header__item:last-child {
-    margin-right: 0;
-} */
 
 .header__burger-link {
     display: inline-block;
@@ -286,9 +287,12 @@ h3 {
 /*#region Hero*/
 
 .wrapper__hero {
-    padding: 100px;
+    height: 644px;
+    padding: 79px 100px;
     border-radius: 40px;
-    background: url(../img/main_page/img-hero.jpg), lightgray 50% / cover no-repeat;    
+    /* background: url(../img/main_page/img-hero.jpg), lightgray 50% / cover no-repeat;   */
+    background: url(../img/main_page/img-hero.jpg) no-repeat left -28px;
+
     background-size: cover;
 }
 
@@ -328,6 +332,10 @@ h3 {
 /*--------------------------------------------------------*/
 /*#region Favorite Card*/
 
+.favorite {
+    margin-bottom: 140px;
+}
+
 .favorite__title {
     text-align: center;
 }
@@ -336,12 +344,14 @@ h3 {
 .btn__prev:not(:hover) {
     border: 1px solid var(--border-color-dark, #665F55);
     background: url(../img/icons/arrow-left.svg) no-repeat center center;
+    margin: 0 0 0 4px;
 }
 
 .btn__next,
 .btn__next:not(:hover) {
     border: 1px solid var(--border-color-dark, #665F55);
     background: url(../img/icons/arrow-right.svg) no-repeat center center;
+    margin: 0 4px 0 0;
 }
 
 .btn__next:hover {
@@ -361,6 +371,7 @@ h3 {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
 .favorite__card {
@@ -370,7 +381,7 @@ h3 {
 }
 
 .favorite__card-imgbox {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .favorite__card-content {
@@ -396,14 +407,15 @@ h3 {
 }
 
 .slider__navigation-control {
-    width: 30px;
-    height: 8px;
-    margin: 6px;
+    width: 40px;
+    height: 6px;
     cursor: pointer;
     background-color: #000;
     opacity: .5;
     border-radius: 10px;
     transition: all 0.4s ease;
+    margin: 6px;
+    margin-top: 36px;
 }
 
 .slider__navigation-control:hover {
@@ -421,6 +433,10 @@ input[name="slider"] {
 
 /*--------------------------------------------------------*/
 /*#region About*/
+
+.about {
+    margin-bottom: 38px;
+}
 
 .wrapper__about {
     text-align: center;
@@ -458,15 +474,15 @@ input[name="slider"] {
 /*--------------------------------------------------------*/
 /*#region Download*/
 
+.download {
+    margin-bottom: 105px;
+}
+
 .download__content {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-}
-
-.download__content-common{
-    flex: 1;
 }
 
 .download__content-right {
@@ -507,7 +523,8 @@ input[name="slider"] {
 .footer__content {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px;
+    height: 450px;
+    padding: 80px 100px;
     border-radius: 40px;
     background-color: var(--background-color-container);
     margin-bottom: 40px;    
@@ -532,19 +549,21 @@ input[name="slider"] {
 
 .footer__social-btn {
     border: 1px solid var(--border-color-light, #C1B6AD);
-    margin-right: 20px;
+    margin-right: 7px;
 }
 
 .footer__contact-title {
-    margin-top: 55px;
+    margin: 54px 0 38px 0;
 }
 
 .footer__contact-adress {
     background: url(../img/icons/pin-alt.svg) no-repeat left center;
+    margin-bottom: 20px;
 }
 
 .footer__contact-phone {
     background: url(../img/icons/phone.svg) no-repeat left center;
+    margin-bottom: 20px;
 }
 
 .footer__contact-clock {
