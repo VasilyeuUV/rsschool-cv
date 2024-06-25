@@ -77,7 +77,7 @@ public static string? ReverseAll(this string? str)
 ### ***Soft skills*** ###
 -------------------
 1. Psychological resistance to legacy code from February 2021.
-A philosophical attitude towards code written by other developers.
+1. A philosophical attitude towards code written by other developers.
 1. Critical attitude towards the organization of the work process and professional relationships.
 1. Extensive management experience (not in IT).
 1. Practical experience in working with confidential information and documents containing state or commercial secrets.
@@ -86,13 +86,15 @@ A philosophical attitude towards code written by other developers.
 
 ### ***Work history*** ###
 --------------------
-- **"SYSTEM TECHNOLOGIES" JLLC, Minsk, Republic of Belarus — .Net developer** _(remote/office, feb.2021 – jul.2023)_     
+- **UNITEL ENGINEERING, Cheboksary, Russia — .Net developer** _(office, feb.2024 – jun.2024)_     
+- **SYSTEM TECHNOLOGIES JLLC, Minsk, Republic of Belarus — .Net developer** _(remote/office, feb.2021 – jul.2023)_     
 - **EPAM, Hrodna, Republic of Belarus - .Net developer trainee** —	_(office, mar.2020 – apr.2020)_ 
 
 ### ***Education*** ###
 -----------------------
 1. **State University of Grodno, Belarus** – Information Systems Software  engineer _(2009-2011)_
 1. **Courses:**
+   * **The Rolling Scopes School, 2023q4, online** – JS/Front-end	_(2023, stage-1)_;
    * **EPAM Training Center, Hrodna, Belarus** – Software Engineering in .NET	_(2020, 100h)_;
    * **Intexsoft, Hrodna, Belarus** – ReactJS/Redux -(2020, 60h)_;
    * **Computer Academy "IT STEP", Minsk, Belarus** – Software Development _(2015-2018)_;
@@ -103,4 +105,3 @@ A philosophical attitude towards code written by other developers.
 * Belarusian;
 * Russian;
 * English (A2)
-
