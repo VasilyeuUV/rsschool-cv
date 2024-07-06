@@ -9,10 +9,33 @@ body {
   background-color: white;
 }
 
+
+/*##############################################################################################*/
+/*#region HEADER*/
+
 .header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.header-nav .nav-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/*#endregion HEADER*/
+
+
+/*##############################################################################################*/
+/*#region FOOTER */
 
 .footer {
   display: flex;
 }
+
+/*#endregion FOOTER */
+
