@@ -1,4 +1,4 @@
-![Uladzislau Vasilyeu](img/photo_2023-11-02.jpg)
+![Uladzislau Vasilyeu](./assets/img/photo_2023-11-02.jpg)
 
 **mr ULADZISLAY VASILYEU**
 ==========================
