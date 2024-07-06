@@ -2,3 +2,17 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+.header {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
