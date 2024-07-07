@@ -83,7 +83,7 @@ li {
 }
 
 .section-title {
-  font-size: 36pt;
+  font-size: 24pt;
   color: var(--color-white);
   text-shadow: gray 2px 2px 0px;
   margin-top: 5px;
@@ -325,6 +325,7 @@ code {
 
 .li-param {
   margin-top: 5px;
+  margin-left: 30px;
 }
 
 .text-param {
