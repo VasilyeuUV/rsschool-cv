@@ -100,6 +100,20 @@ body {
   margin: 0;
 }
 
+.header-title--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: center;
+}
+
+.header-logo {
+  height: 48px;
+  width: 48px;
+}
+
 /*#endregion HEADER*/
 
 
@@ -162,10 +176,12 @@ main {
 
 .footer {
   display: flex;
-  justify-content: space-around;;
+  justify-content: space-around;
+  ;
   align-items: center;
   padding: 10px;
-  box-shadow: 0 -2px 5px var(--color-shadow);;
+  box-shadow: 0 -2px 5px var(--color-shadow);
+  ;
 }
 
 .footer-logo--resschool {
@@ -182,6 +198,3 @@ main {
 }
 
 /*#endregion FOOTER */
-
-
-
