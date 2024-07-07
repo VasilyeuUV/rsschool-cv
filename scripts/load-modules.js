@@ -13,4 +13,4 @@ loadModule('main-content', '../modules/education.html');
 loadModule('main-content', '../modules/english-level.html');
 loadModule('footer-container', '../modules/footer.html');
 
-loadModule('showcase-container--contacts', '../modules/contacts.html');
+loadModule('header', '../modules/contacts.html');

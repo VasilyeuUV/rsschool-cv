@@ -13,7 +13,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  color: black;
+  color: var(--color-black);
   background-color: var(--color-white);
 }
 
@@ -23,7 +23,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
 .hidden {
@@ -41,8 +40,8 @@ body {
 
 .contacts-item {
   display: inline-block;
-  width: 36px;
-  height: 36px;
+  width: 24px;
+  height: 24px;
   outline: 1px solid red;
 }
 
@@ -155,6 +154,33 @@ main {
   margin-right: 5px;
 }
 
+.skills-icons {
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+}
+
+.skill-icon {
+  display: inline-block;
+  width: 96px;
+  height: 96px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.html-icon {
+  background-image: url('../assets/img/HTML5_logo.png');
+}
+.css-icon {
+  background-image: url('../assets/img/CSS3_logo.png');
+}
+.js-icon {
+  background-image: url('../assets/img/Javascript-shield.svg');
+}
+.csharp-icon {
+  background-image: url('../assets/img/csharp.svg');
+}
 
 /*----------------------------------------------------------------*/
 /* CODE_EXAMPLE */
