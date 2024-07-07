@@ -1,0 +1,63 @@
+<section id="code-examples" class="section">
+  <h2 class="section-title">Code Examples</h2>
+
+  <div class="code-block">
+    <h3 id="html-example" class="section-subtitle">HTML Example</h3>
+    <pre><code class="html-code">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+  &lt;meta charset="UTF-8"&gt;
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+  &lt;title&gt;Vlad Vasilev&lt;/title&gt;
+  &lt;link rel="stylesheet" href="./styles/style.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;header id="header-container"&gt;&lt;/header&gt;
+  &lt;main id="main-content"&gt;&lt;/main&gt;
+  &lt;footer id="footer-container"&gt;&lt;/footer&gt;
+
+  &lt;script src="scripts/load-modules.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </code></pre>
+  </div>
+
+  <div id="css-example" class="code-block">
+    <h3 class="section-subtitle">CSS Example</h3>
+    <pre><code class="css-code">
+:root {
+  --color-black: black;
+  --color-gray: #909090;
+  --color-white: white;
+  --color-block: #f5f5f5;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: var(--color-white);
+}
+    </code></pre>
+  </div>
+
+  <div id="js-example" class="code-block">
+    <h3 class="section-subtitle">JavaScript Example</h3>
+    <pre><code class="js-code">
+const isIsogram = str =&gt; [...new Set(str.toLowerCase())].length === str.length;
+
+const nicknameGenerator = name =&gt; name.length &gt; 3
+      ? [...`aeiou`].includes(name[2].toLowerCase()) 
+          ? name.substr(0, 4) 
+          : name.substr(0, 3)
+      : "Error: Name too short";
+    </code></pre>
+  </div>
+
+</section>
