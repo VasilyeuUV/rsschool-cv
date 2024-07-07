@@ -32,18 +32,21 @@ body {
 /*##############################################################################################*/
 /*#region CONTACTS*/
 
-.contact-icons {
+.contacts-icons {
   display: flex;
-  justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 5px;
 }
 
-.contact-icon {
-  width: 24px;
-  height: 24px;
+.contacts-item {
   display: inline-block;
+  width: 36px;
+  height: 36px;
   outline: 1px solid red;
+}
+
+.contacts-icon {
+  max-width: 96px;
+  max-height: 96px;
 }
 
 /*#endregion CONTACTS*/
@@ -114,17 +117,6 @@ main {
   margin-right: 5px; /* Отступ между текстами */
 }
 
-.showcase-contacns--icons {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  position: absolute;
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-  gap: 10px;
-}
-
 
 /*#endregion MAIN */
 
@@ -138,4 +130,11 @@ main {
   display: flex;
 }
 
+.footer-logo--resschool {
+  width: 70px;
+}
+
 /*#endregion FOOTER */
+
+
+
