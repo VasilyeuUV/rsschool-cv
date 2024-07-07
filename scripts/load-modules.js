@@ -6,3 +6,9 @@ const loadModule = async (id, url) => {
 
 loadModule('header-container', '../modules/header.html');
 loadModule('main-content', '../modules/showcase.html');
+loadModule('main-content', '../modules/code-examples.html');
+loadModule('main-content', '../modules/projects.html');
+loadModule('main-content', '../modules/experience.html');
+loadModule('main-content', '../modules/education.html');
+loadModule('main-content', '../modules/english-level.html');
+loadModule('footer-container', '../modules/footer.html');

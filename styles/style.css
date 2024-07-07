@@ -89,6 +89,10 @@ main {
 /*----------------------------------------------------------------*/
 /* SHOWCASE*/
 
+.showcase-section {
+  align-items: flex-start;
+}
+
 .showcase-title--wrapper {
   display: flex;
   flex-direction: column;
