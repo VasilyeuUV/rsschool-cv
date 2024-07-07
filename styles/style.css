@@ -1,3 +1,9 @@
+:root {
+  --color-black: black;
+  --color-gray: #909090;
+  --color-white: white;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +15,41 @@ body {
   background-color: white;
 }
 
+.full-screen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*##############################################################################################*/
+/*#region CONTACTS*/
+
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  outline: 1px solid red;
+}
+
+/*#endregion CONTACTS*/
+
+
+
 
 /*##############################################################################################*/
 /*#region HEADER*/
@@ -17,17 +58,73 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header-nav .nav-list {
-  list-style: none;
+.header-nav .header-nav--list {
   display: flex;
+  list-style: none;
   gap: 20px;
   padding: 0;
   margin: 0;
 }
 
 /*#endregion HEADER*/
+
+
+/*##############################################################################################*/
+/*#region MAIN */
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+
+/*----------------------------------------------------------------*/
+/* SHOWCASE*/
+
+.showcase-title--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.showcase-title {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 128pt;
+  font-weight: lighter;
+  color: var(--color-gray);
+  align-self: flex-start;
+}
+
+.showcase-subtitle {
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 48pt; /* Текст 2 меньше текста 1 */
+  margin-right: 5px; /* Отступ между текстами */
+}
+
+.showcase-contacns--icons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  gap: 10px;
+}
+
+
+/*#endregion MAIN */
+
+
 
 
 /*##############################################################################################*/
@@ -38,4 +135,3 @@ body {
 }
 
 /*#endregion FOOTER */
-
