@@ -128,10 +128,24 @@ main {
 
 .footer {
   display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer-logo--resschool {
   width: 70px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-year {
+  font-size: 14px;
 }
 
 /*#endregion FOOTER */
