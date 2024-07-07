@@ -224,3 +224,29 @@ main {
 }
 
 /*#endregion FOOTER */
+
+
+
+
+.param {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.div-param{
+  margin: 0;
+  margin-left: 40px;
+  padding: 0;
+}
+
+.li-param {
+  margin-top: 5px;
+}
+
+.text-param {
+  margin: 0;
+  font-size: calc(6px + 0.9vw);
+  text-indent:30px;
+  text-align:justify;
+  line-height: 1.2em;
+}
