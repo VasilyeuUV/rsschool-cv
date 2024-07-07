@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vlad Vasilev</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./styles/font-awesome.min.css">
+</head>
+
+<body>
+
+  <header id="header-container">
+    <div id="header" class="header">
+      <div class="header-title--container">
+        <img class="header-logo" src="./assets/img/my-logo.svg" alt="Logo">
+        <span class="">Fullstack Developer</span>
+      </div>
+      <nav class="header-nav">
+        <ul class="header-nav--list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#code-examples">Code Examples</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#english-level">English Level</a></li>
+        </ul>
+      </nav>
+      <div id="contacts-icons">
+        <ul class="block-right">
+          <li><i class="fa fa-home fa-fw" aria-hidden="true" title="Home adress"></i>&nbsp;&nbsp;&nbsp;Hrodna,
+            230019, Belarus</li>
+          <li><i class="fa fa-mobile fa-fw" aria-hidden="true" title="Phone"></i>&nbsp;&nbsp;&nbsp;+375 (25)
+            70-24-226</li>
+          <li><i class=" fa fa-envelope-o fa-fw" aria-hidden="true" title="eMail"></i><a
+              href="mailto:vasilyeu.uv@mail.ru" target="_blank">vasilyeu.uv@mail.ru</a></li>
+          <li><i class=" fa fa-linkedin-square fa-fw" aria-hidden="true" title="LinkedIn"></i><a
+              href="http://www.linkedin.com/in/uv257024226" target="_blank">LinkedIn</a></li>
+          <li><i class=" fa fa-skype fa-fw" aria-hidden="true" title="Skype"></i><a
+              href="Skype:live:.cid.570b8459c416f0c0?userinfo" target="_blank">Skype</a></li>
+
+          <li><i class=" fa fa-github fa-fw" aria-hidden="true" title="GitHub"></i><a
+              href="https://github.com/VasilyeuUV" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section id="showcase" class="section showcase-section full-screen">
+      <div class="showcase-title--wrapper">
+        <h1 class="showcase-title">Vlad Vasiluey</h1>
+        <span class="showcase-subtitle">FULLSTACK DEVELOPER</span>
+      </div>
+      <!-- <ul class="skills-icons">
+        <li class="skill-item"><a href="#html-example"><img src="../assets/img/HTML5_logo.png" alt="HTML"></a></li>
+        <li class="skill-item"><a href="#css-example"><img src="../assets/img/CSS3_logo.png" alt="CSS"></a></li>
+        <li class="skill-item"><a href="#js-example"><img src="../assets/img/JS.png" alt="JavaScript"></a></li>
+        <li class="skill-item"><a href="#csharp-example"><img src="../assets/img/Csharp_Logo.png" alt="C#"></a></li>
+    </ul> -->
+      <ul class="skills-icons">
+        <li><a href="#html-example" class="skill-icon html-icon"></a></li>
+        <li><a href="#css-example" class="skill-icon css-icon"></a></li>
+        <li><a href="#js-example" class="skill-icon js-icon"></a></li>
+      </ul>
+      <p class="text">
+        My goal is to become a Full-stack developer. The first stage is passed - I recently started my
+        career as a Software engineer specializing in C#/WPF. Now, thanks to the community of The Rolling Scopes, I
+        have a great chance to implement the second stage: acquire skills in Web application development. And this
+        is just the beginning. There will be a long way to explore the endless possibilities of the IT world
+        ahead.
+      </p>
+    </section>
+
+    <section id="code-examples" class="section">
+      <h2 class="section-title">Code Examples</h2>
+
+      <div class="code-block">
+        <h3 id="html-example" class="section-subtitle">HTML Example</h3>
+        <pre><code class="html-code">
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en"&gt;
+    &lt;head&gt;
+      &lt;meta charset="UTF-8"&gt;
+      &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+      &lt;title&gt;Vlad Vasilev&lt;/title&gt;
+      &lt;link rel="stylesheet" href="./styles/style.css"&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+      &lt;header id="header-container"&gt;&lt;/header&gt;
+      &lt;main id="main-content"&gt;&lt;/main&gt;
+      &lt;footer id="footer-container"&gt;&lt;/footer&gt;
+    
+      &lt;script src="scripts/load-modules.js"&gt;&lt;/script&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;
+        </code></pre>
+      </div>
+
+      <div id="css-example" class="code-block">
+        <h3 class="section-subtitle">CSS Example</h3>
+        <pre><code class="css-code">
+    :root {
+      --color-black: black;
+      --color-gray: #909090;
+      --color-white: white;
+      --color-block: #f5f5f5;
+      --color-shadow: rgba(0, 0, 0, 0.1);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: Arial, sans-serif;
+      color: black;
+      background-color: var(--color-white);
+    }
+        </code></pre>
+      </div>
+
+      <div id="js-example" class="code-block">
+        <h3 class="section-subtitle">JavaScript Example</h3>
+        <pre><code class="js-code">
+    const isIsogram = str =&gt; [...new Set(str.toLowerCase())].length === str.length;
+    
+    const nicknameGenerator = name =&gt; name.length &gt; 3
+          ? [...`aeiou`].includes(name[2].toLowerCase()) 
+              ? name.substr(0, 4) 
+              : name.substr(0, 3)
+          : "Error: Name too short";
+        </code></pre>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <ul class="project-list">
+        <li class="li-param"><a href="https://github.com/VasilyeuUV/rsschool-cv/tree/coffee-house">Coffee House</a></li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section">
+      <h2 class="section-title">Experience</h2>
+      <ul>
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+            class="param">2009-2020:</span>
+          <p class="text-param">Study projects while studying.</p>
+        </li>
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span class="param">2020:</span>
+          <p class="text-param">Trainee at EPAM as a software developer. Not completed due to coronavirus.
+          </p>
+
+        </li>
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+            class="param">2021-now:</span>
+          <p class="text-param">Support and development of new functionality for several projects in
+            System
+            Technologies.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education" class="section">
+      <h2 class="section-title">Education</h2>
+      <ul>
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+            class="param">2021-now:</span>
+          <p class="text-param">JavaScript/Front-end Course from The Rolling Scopes Community.</p>
+
+        </li>
+
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+            class="param">Nov.2015-Sep.2018:</span>
+          <p class="text-param">Computer Academy «IT STEP» - Minsk, Belarus (<em>Software
+              Development</em>).
+          </p>
+        </li>
+
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span class="param">Sep.-Oct.
+            2015:</span>
+          <p class="text-param">Course &quot;Programming in PHP&quot; - BELHARD, Minsk, Belarus.
+          </p>
+        </li>
+
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span
+            class="param">2009-2011:</span>
+          <p class="text-param">State University of Grodno, Belarus (<em>Information Systems Software
+              engineer</em>).
+          </p>
+        </li>
+
+        <li class="li-param"><i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp;<span class="param">Online
+            courses:</span>
+          <ul>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;ITVDN: С#, WPF,
+              HowTo, .NET Developer, etс.;</li>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;busisql-ex.ru SQL
+              Exercises;</li>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i>&nbsp;html academy: HTML,
+              CSS &amp; JavaScript.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="english-level" class="section">
+      <h2 class="section-title">English Level</h2>
+      <p class="li-param">A2</p>
+    </section>
+
+  </main>
+
+
+  <footer id="footer-container">
+    <div class="footer">
+      <a href="https://github.com/VasilyeuUV" class="footer-link">GitHub</a>
+      <span class="footer-year">&copy; 2024</span>
+      <a class="footer-logo" href="https://rs.school/" target="_blank">
+        <img class="footer-logo--resschool" src="./assets/img/rs-logo.svg" alt="RSSchool logo">
+      </a>
+    </div>
+  </footer>
+
+  <!-- <script src="./scripts/load-modules.js"></script>
+  <script src="./scripts/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script> -->
+</body>
+
+</html>
