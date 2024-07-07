@@ -2,6 +2,8 @@
   --color-black: black;
   --color-gray: #909090;
   --color-white: white;
+  --color-block: #f5f5f5;
+  --color-shadow: rgba(0, 0, 0, 0.1);
 }
 
 * {
@@ -12,7 +14,7 @@
 body {
   font-family: Arial, sans-serif;
   color: black;
-  background-color: white;
+  background-color: var(--color-white);
 }
 
 .full-screen {
@@ -53,6 +55,28 @@ body {
 
 
 
+/*##############################################################################################*/
+/*#region COMMON*/
+
+/*----------------------------------------------------------------*/
+/* Section */
+
+.section {
+  margin-bottom: 50px;
+}
+
+.section-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-subtitle {
+  margin-bottom: 10px;
+}
+
+
+/*#endregion COMMON*/
+
 
 /*##############################################################################################*/
 /*#region HEADER*/
@@ -65,7 +89,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px var(--color-shadow);
 }
 
 .header-nav .header-nav--list {
@@ -113,10 +137,20 @@ main {
 
 .showcase-subtitle {
   font-family: Impact, Charcoal, sans-serif;
-  font-size: 48pt; /* Текст 2 меньше текста 1 */
-  margin-right: 5px; /* Отступ между текстами */
+  font-size: 48pt;
+  margin-right: 5px;
 }
 
+
+/*----------------------------------------------------------------*/
+/* CODE_EXAMPLE */
+
+.code-block {
+  background-color: var(--color-block);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
 
 /*#endregion MAIN */
 
@@ -131,8 +165,7 @@ main {
   justify-content: space-around;;
   align-items: center;
   padding: 10px;
-  background-color: white;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 -2px 5px var(--color-shadow);;
 }
 
 .footer-logo--resschool {
@@ -141,7 +174,7 @@ main {
 
 .footer-link {
   text-decoration: none;
-  color: black;
+  color: var(--color-black);
 }
 
 .footer-year {
