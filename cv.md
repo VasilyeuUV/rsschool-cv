@@ -6,18 +6,13 @@
   <img src="./assets/img/my_photo.png" width="160" alt="Vlad Vasilyeu" style="border-radius: 8px;">
 </div>
 
-<div style="overflow: hidden; padding-top: 5px;">
-
 📍 **Hrodna, Belarus**  
 📞 **+375 (25) 70-24-226**  
 ✉️ **vasilyeu.uv@mail.ru**  
 💬 **Discord:** `@VasilyeuUV` (Vlad Vasilev)  
 💻 **GitHub:** [VasilyeuUV](https://github.com)  
 🧩 **Codewars:** [VasilyeuUV](https://codewars.com)  
-💼 **LinkedIn:** [uv257024226](http://linkedin.com)  
-
-</div>
-<div style="clear: both;"></div>
+💼 **LinkedIn:** [uv257024226](http://linkedin.com)
 
 ---
 
@@ -128,6 +123,8 @@ const snail = function (array) {
 
 <div align="center">
 
-💻 [GitHub](https://github.com) · 🧩 [Codewars](https://codewars.com) · 💼 [LinkedIn](http://linkedin.com)
+<a href="https://github.com">💻 GitHub</a> ·
+<a href="https://codewars.com">🧩 Codewars</a> ·
+<a href="http://linkedin.com">💼 LinkedIn</a>
 
 </div>
