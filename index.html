@@ -3,10 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Uladzislau Vasilyeu</title>
+    <meta name="description" content="CV of Uladzislau Vasilyeu, Full-Stack Developer">
+    <title>Uladzislau Vasilyeu — Full-Stack Developer</title>
     <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    Hello, RsSchool!
+
+ <header class="site-header">
+    <div class="container header-content">
+      <div class="identity">
+        <img class="avatar" src="./assets/img/my_photo320.png" alt="Portrait of Uladzislau Vasilyeu">
+        <div>
+          <p class="eyebrow">Training CV · Rolling Scopes School</p>
+          <h1>ULADZISLAU VASILYEU</h1>
+          <p class="subtitle">FULL-STACK DEVELOPER</p>
+        </div>
+      </div>
+
+      <nav aria-label="CV navigation">
+        <ul class="nav-list">
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code examples</a></li>
+          <li><a href="#experience">Work history</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contacts-section">
+      <h2 id="contacts-title">Contacts</h2>
+      <ul class="contact-list">
+        <li><span>📍</span> Hrodna, Belarus</li>
+        <li><span>📞</span> <a href="tel:+375257024226" target="_blank">+375 (25) 70-24-226</a></li>
+        <li><span>✉️</span> <a href="mailto:vasilyeu.uv@mail.ru" target="_blank">vasilyeu.uv@mail.ru</a></li>
+        <li><span>💬</span> Discord: <code>@VasilyeuUV</code></li>
+        <li><span>💼</span> LinkedIn: <a href="http://www.linkedin.com/in/uv257024226" target="_blank">uv257024226</a></li>
+        <li><span>💻</span> GitHub: <a href="https://github.com/VasilyeuUV" target="_blank">VasilyeuUV</a></li>
+        <li><span>🧩</span> Codewars: <a href="https://www.codewars.com/users/VasilyeuUV" target="_blank">VasilyeuUV</a></li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2 id="about-title">About Me</h2>
+      <p>Software developer with a strong interest in modern web technologies and full-stack development.</p>
+      <p>I enjoy turning ideas into practical solutions, learning new technologies through hands-on development, and continuously improving the quality of my code.</p>
+      <p>Currently focused on strengthening my skills in <strong>JavaScript, HTML5, CSS3, React and Redux</strong> and developing a broader understanding of modern web application development.</p>
+    </section>
+
+    <section id="skills">
+      <h2 id="skills-title">Skills</h2>
+      <ul class="skill-list">
+        <li><strong>Programming:</strong> JavaScript, SQL</li>
+        <li><strong>Frontend:</strong> HTML5, CSS3, LESS, JavaScript, React, Redux, jQuery</li>
+        <li><strong>Web:</strong> DOM manipulation, REST API integration, client-side development, responsive web development</li>
+        <li><strong>Tools:</strong> Git, GitHub, Visual Studio Code, npm</li>
+        <li><strong>Data formats:</strong> JSON</li>
+      </ul>
+    </section>
+
+    <section id="code">
+      <h2 id="code-title">Code Examples</h2>
+      <article class="code-example">
+        <h3>JavaScript · Snail Sort</h3>
+        <p><strong>Codewars kata:</strong> convert an <code>N × N</code> array into a single array by traversing its elements clockwise in a spiral order.</p>
+        <pre><code>const snail = function (array) {
+  const result = [];
+
+  while (array.length) {
+    result.push(array.shift());
+
+    if (!array.length)
+      break;
+
+    array = array.map((_, index) =>
+      array.map(row =&gt; row[row.length - index - 1])
+    );
+  }
+
+  return [].concat(...result);
+};</code></pre>
+      </article>
+
+      <article class="profile-card">
+        <h3>🧩 Codewars Profile</h3>
+        <ul>
+          <li><strong>Rank:</strong> 5 kyu</li>
+          <li><strong>Stats:</strong> 102 completed kata</li>
+          <li><a href="https://codewars.com" target="_blank">View Codewars profile</a></li>
+        </ul>
+      </article>
+
+      <article class="profile-card">
+        <h3>📁 Featured Project</h3>
+        <h4>IS Project</h4>
+        <ul>
+          <li><strong>Stack:</strong> JavaScript · React · Redux</li>
+          <li><strong>Description:</strong> Training project developed to practice frontend application development with React and Redux.</li>
+          <li><a href="https://github.com/is-project" target="_blank">View source code on GitHub</a></li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2 id="experience-title">Work History</h2>
+      <ul class="timeline">
+        <li>
+          <h3>Lead Software Engineer</h3>
+          <p class="organization">Unified Scientific and Technical Center "NEC.TECH"</p>
+          <p class="period">Jul 2024 – Jul 2026</p>
+        </li>
+        <li>
+          <h3>Software Developer</h3>
+          <p class="organization">UNITEL ENGINEERING</p>
+          <p class="period">Feb 2024 – Jun 2024</p>
+        </li>
+        <li>
+          <h3>Software Developer</h3>
+          <p class="organization">SYSTEM TECHNOLOGIES JLLC</p>
+          <p class="period">Feb 2021 – Jul 2023</p>
+        </li>
+        <li>
+          <h3>Software Developer Trainee</h3>
+          <p class="organization">EPAM</p>
+          <p class="period">Mar 2020 – Apr 2020</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education">
+      <h2 id="education-title">Education</h2>
+      <ul class="education-list">
+        <li><strong>State University of Grodno</strong> — <em>Information Systems Software Engineer</em> · <em>2009 – 2011</em></li>
+        <li><strong>EPAM Training Center</strong> — <em>Software Engineering (100 hours)</em> · <em>2020</em></li>
+        <li><strong>Intexsoft</strong> — <em>ReactJS / Redux (60 hours)</em> · <em>2020</em></li>
+        <li><strong>Computer Academy "IT STEP"</strong> — <em>Software Development</em> · <em>2015 – 2018</em></li>
+        <li><strong>BELHARD</strong> — <em>Programming in PHP, Basic (68 hours)</em> · <em>2015</em></li>
+      </ul>
+    </section>
+
+    <section id="languages">
+      <h2 id="languages-title">Languages</h2>
+      <table>
+        <caption class="visually-hidden">Language proficiency</caption>
+        <thead>
+          <tr><th scope="col">Language</th><th scope="col">Level</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Belarusian</td><td>Native</td></tr>
+          <tr><td>Russian</td><td>Native</td></tr>
+          <tr><td>English</td><td>A2 · Reading technical documentation and programming materials</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2026 Uladzislau Vasilyeu</p>
+      <ul class="footer-links">
+        <li>
+            <a href="https://github.com/VasilyeuUV" target="_blank">
+                <img class="footer-logo footer-logo--github" src="./assets/logos/github-logo.png" alt="GitHub">                
+            </a>
+        </li>        
+        <li>
+            <a href="https://wearecommunity.io/events/js-stage1-2026q3" target="_blank">
+                <img class="footer-logo footer-logo--rsschool " src="./assets/logos/rs-logo.svg" alt="Rolling Scopes School">                
+            </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
 </body>
 </html>
