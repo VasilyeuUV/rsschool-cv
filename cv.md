@@ -1,15 +1,8 @@
 # ULADZISLAY VASILYEU
-### FULL-STACK DEVELOPER
+### ![Web logo](./assets/logo/web_logo16.png) FULL-STACK DEVELOPER
 > **Training CV · Rolling Scopes School**
 
-<table>
-<tr>
-<td width="180">
-
-<img src="./assets/img/my_photo.png" width="160" alt="Vlad Vasilyeu" style="border-radius: 8px;">
-
-</td>
-<td>
+<img src="./assets/img/my_photo.png" width="160" alt="Vlad Vasilyeu" style="border-radius: 8px; float: left; margin-right: 20px;">
 
 📍 **Hrodna, Belarus**  
 📞 **+375 (25) 70-24-226**  
@@ -19,11 +12,8 @@
 💻 **GitHub:** [VasilyeuUV](https://github.com/VasilyeuUV)  
 🧩 **Codewars:** [VasilyeuUV](https://www.codewars.com/users/VasilyeuUV)
 
-</td>
-</tr>
-</table>
+<div style="clear: both;"></div>
 
----
 
 ## 👨‍💻 ABOUT ME
 
