@@ -2,17 +2,26 @@
 ### FULL-STACK DEVELOPER
 > **Training CV · Rolling Scopes School**
 
-<div style="float: left; margin-right: 30px; margin-bottom: 20px;">
-  <img src="./assets/img/my_photo.png" width="160" alt="Vlad Vasilyeu" style="border-radius: 8px;">
-</div>
+<table>
+<tr>
+<td width="180">
+
+<img src="./assets/img/my_photo.png" width="160" alt="Vlad Vasilyeu" style="border-radius: 8px;">
+
+</td>
+<td>
 
 📍 **Hrodna, Belarus**  
 📞 **+375 (25) 70-24-226**  
 ✉️ **vasilyeu.uv@mail.ru**  
-💬 **Discord:** `@VasilyeuUV` (Vlad Vasilev)  
-💻 **GitHub:** [VasilyeuUV](https://github.com)  
-🧩 **Codewars:** [VasilyeuUV](https://codewars.com)  
-💼 **LinkedIn:** [uv257024226](http://linkedin.com)
+💬 **Discord:** Vlad Vasilev · `@VasilyeuUV`  
+💼 **LinkedIn:** [uv257024226](http://www.linkedin.com/in/uv257024226)  
+💻 **GitHub:** [VasilyeuUV](https://github.com/VasilyeuUV)  
+🧩 **Codewars:** [VasilyeuUV](https://www.codewars.com/users/VasilyeuUV)
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -122,9 +131,7 @@ const snail = function (array) {
 ---
 
 <div align="center">
-
-<a href="https://github.com">💻 GitHub</a> ·
-<a href="https://codewars.com">🧩 Codewars</a> ·
-<a href="http://linkedin.com">💼 LinkedIn</a>
-
+  <a href="https://github.com" target="_blank">💻 GitHub</a> &middot; 
+  <a href="https://codewars.com" target="_blank">🧩 Codewars</a> &middot; 
+  <a href="http://linkedin.com" target="_blank">💼 LinkedIn</a>
 </div>
